@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enquiry - Crafted Wood Carpentry</title>
+</head>
+<body>
+    <header>
+         <div class="logo">Crafted Wood Carpentry</div>
+  <nav>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="services.html">Services</a></li>
+      <li><a href="enquiry.html">Enquiry</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+    </header>
+    <section class="enquiry-content">
+  <h1>Make an Enquiry</h1>
+  <p>Fill out the form below and we'll get back to you about your custom piece.</p>
+
+  <form action="#" method="post">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number</label>
+    <input type="tel" id="phone" name="phone">
+
+    <label for="service">Type of Enquiry</label>
+    <select id="service" name="service">
+      <option value="furniture">Custom Furniture</option>
+      <option value="doors">Doors and Cupboards</option>
+      <option value="restoration">Restoration and Repairs</option>
+    </select>
+
+    <label for="message">Tell us about your project</label>
+    <textarea id="message" name="message" rows="5" required></textarea>
+
+    <button type="submit">Submit Enquiry</button>
+  </form>
+</section>
+</body>
+</html>
