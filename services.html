@@ -4,11 +4,14 @@
     <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services - Crafted Wood Carpentry</title>
+   <title>Carpentry Services Soshanguve | Crafted Wood Carpentry</title>
+<meta name="description" content="Carpentry services in Soshanguve: custom wooden furniture, doors and cupboards, and restoration and repairs. Made-to-order work at fair prices.">
+<meta name="keywords" content="carpentry services Soshanguve, custom wooden furniture Soshanguve, custom furniture Pretoria, made-to-order wooden furniture, wooden furniture Gauteng">
 </head>
 <body>
     <header>
         <div class="logo">Crafted Wood Carpentry</div>
+        <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
   <nav>
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -21,21 +24,63 @@
     </header>
     <section class="services-content">
   <h1>Our Services</h1>
+  <label for="service-search">Search our services</label>
+<input type="search" id="service-search" placeholder="e.g. doors, repair, table">
+<p id="search-message" hidden>No services match your search.</p>
   
-  <div class="service-item">
-    <h2>Custom Furniture</h2>
+ <article class="service-item">
+  <h2>
+    <button class="accordion-toggle" aria-expanded="false">Custom Furniture</button>
+  </h2>
+  <div class="accordion-panel">
     <p>Hand-built tables, chairs, cabinets, and shelving, designed to your exact specifications and space.</p>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="images/Crafted-Wood-Capentry-Workshop-Custom-Piece.webp.jpg" alt="Custom Made piece" width="400" height="300" loading="lazy">
+        <figcaption>Our Custom Made Piece</figcaption>
+      </figure>
+    </div>
   </div>
-  
-  <div class="service-item">
-    <h2>Doors and Cupboards</h2>
-    <p>Custom-fitted wooden doors and cupboards, built to last and finished to match your home's style.</p>
+</article>
+ <article class="service-item">
+  <h2>
+    <button class="accordion-toggle" aria-expanded="false">Custom Cupboards And Doors</button>
+  </h2>
+  <div class="accordion-panel">
+    <p>Wood worked doors and cupboards to fit your carpentry needs/p>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="images/Crafted-Wood-Capentry-Workshop-Custom-Cupboard.webp.webp" alt="Custom Cupboard" width="400" height="300" loading="lazy">
+        <figcaption>Custom Woodworked Cupboard</figcaption>
+      </figure>
+    </div>
+     <div class="gallery">
+    <figure class="gallery-item">
+      <img src="images/Crafted-Wood-Capentry-Workshop-Custom-Door.webp.webp"
+           alt="Custom Door"
+           width="400" height="300" loading="lazy">
+      <figcaption>Custom Made Door Jobs</figcaption>
+    </figure>
   </div>
-  
-  <div class="service-item">
-    <h2>Restoration and Repairs</h2>
-    <p>Bringing damaged or worn wooden furniture back to life with expert repair and refinishing work.</p>
   </div>
+</article>
+ <section class="service-image">
 </section>
+  <article class="service-item">
+  <h2>
+    <button class="accordion-toggle" aria-expanded="false">Restorations</button>
+  </h2>
+  <div class="accordion-panel">
+    <p>Bringing damaged or worn wooden furniture back to life with expert repair and refinishing work</p>
+    <div class="gallery">
+      <figure class="gallery-item">
+        <img src="images/Crafted-Wood-Capentry-Workshop-Restoration.webp.webp" alt="Restored Wood Cupboard" width="400" height="300" loading="lazy">
+        <figcaption>Restoration Work</figcaption>
+      </figure>
+    </div>
+  </div>
+</article>
+</section>
+<script src="service.js" defer></script>
 </body>
 </html>
