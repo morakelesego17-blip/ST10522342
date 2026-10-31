@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://morakelesego17-blip.github.io/ST10522342/sitemap.xml
